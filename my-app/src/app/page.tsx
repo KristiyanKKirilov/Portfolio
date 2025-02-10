@@ -1,5 +1,8 @@
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
+import Image from 'next/image';
+import deved from '../../public/dev-ed-wave.png';
+
 export default function Home() {
   return (
     <div>
@@ -27,6 +30,9 @@ export default function Home() {
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <a href="https://github.com/KristiyanKKirilov"><AiFillGithub/></a>
             <a href="https://www.linkedin.com/in/kristiyan-kirilov-797931302/"><AiFillLinkedin/></a>
+          </div>
+          <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden"> 
+            <Image src={deved} alt="Myself" layout="fill" objectFit="cover" />
           </div>
         </section>
       </main>
