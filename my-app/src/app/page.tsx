@@ -1,4 +1,5 @@
 import {BsFillMoonStarsFill} from 'react-icons/bs';
+import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 export default function Home() {
   return (
     <div>
@@ -15,6 +16,18 @@ export default function Home() {
                 </li>
             </ul>
           </nav>
+          <div className="text-center p-10">
+                <h2 className="text-5xl py-2 text-teal-600 font-medium">Kristiyan Kirilov</h2>
+                <h3 className="text-2xl py-2">Junior Full Stack Developer</h3>
+                <p className="text-md py-5 leading-8 text-gray-800 max-w-96 mx-auto">
+                    Currently graduated SoftUni student, who is looking forward to improve the learned knowledge in web development. 
+                    On the other excellent student at TU-Varna in second course and member of the university programming team.  
+                </p>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+            <a href="https://github.com/KristiyanKKirilov"><AiFillGithub/></a>
+            <a href="https://www.linkedin.com/in/kristiyan-kirilov-797931302/"><AiFillLinkedin/></a>
+          </div>
         </section>
       </main>
     </div>
