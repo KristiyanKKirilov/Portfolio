@@ -1,3 +1,5 @@
+'use client';
+
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import Image from 'next/image';
@@ -10,7 +12,7 @@ import { useState } from 'react';
 
 export default function Home() {
     const [darkMode, setDarkMode] = useState(false);
-    
+
   return (
     <div>
       <main className="bg-white px-10 md:px-20 lg:px-40">
