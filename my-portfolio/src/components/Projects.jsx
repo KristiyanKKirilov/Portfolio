@@ -1,6 +1,6 @@
-import events from "../../public/events.png";
-import cars from "../../public/cars.png";
-import games from "../../public/games.png";
+import events from "../assets/events.png";
+import cars from "../assets/cars.png";
+import games from "../assets/games.png";
 
 export default function Projects() {
     return (

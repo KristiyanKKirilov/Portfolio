@@ -1,20 +1,20 @@
-import fundamentals from "../../public/fundamentals.jpeg";
-import advanced from "../../public/advanced.jpeg";
-import sql from "../../public/sql.jpeg";
-import ef from "../../public/ef.jpeg";
-import aspFund from "../../public/asp-fund.jpeg";
-import aspAdv from "../../public/asp-adv.jpeg";
-import html from "../../public/html.jpeg";
-import js from "../../public/js.jpeg";
-import angular from "../../public/angular.jpeg";
-import softuni from "../../public/softuni2.png";
-import tuvarna from "../../public/tuvarna.jpg";
-import supne from "../../public/supne.png";
-import rep from "../../public/rep.jpg";
-import sp from "../../public/sp.jpg";
-import dsd from "../../public/dsd.jpg";
-import dsd2 from "../../public/dsd2.jpg";
-import cambridge from "../../public/cambridge.jpg";
+import fundamentals from "../assets/fundamentals.jpeg";
+import advanced from "../assets/advanced.jpeg";
+import sql from "../assets/sql.jpeg";
+import ef from "../assets/ef.jpeg";
+import aspFund from "../assets/asp-fund.jpeg";
+import aspAdv from "../assets/asp-adv.jpeg";
+import html from "../assets/html.jpeg";
+import js from "../assets/js.jpeg";
+import angular from "../assets/angular.jpeg";
+import softuni from "../assets/softuni2.png";
+import tuvarna from "../assets/tuvarna.jpg";
+import supne from "../assets/supne.png";
+import rep from "../assets/rep.jpg";
+import sp from "../assets/sp.jpg";
+import dsd from "../assets/dsd.jpg";
+import dsd2 from "../assets/dsd2.jpg";
+import cambridge from "../assets/cambridge.jpg";
 
 export default function Certificates() {
     return (

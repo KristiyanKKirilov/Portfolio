@@ -5,7 +5,7 @@ export default function Navigation({onSubmit}) {
     return (
         <>
             <nav className="py-10 mb-6 flex justify-between">
-                        <p className="flex gap-5">
+                        <p className="flex gap-5 flex-wrap">
                             <Link
                                 to="/"
                                 className="relative text-xl font-burtons dark:text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-black dark:after:bg-white after:transition-all after:duration-300 hover:after:w-full"
