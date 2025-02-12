@@ -29,10 +29,10 @@ export default function Info() {
                 </p>
             </div>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-                <a href="https://github.com/KristiyanKKirilov">
+                <a href="https://github.com/KristiyanKKirilov" target="_blank">
                     <AiFillGithub />
                 </a>
-                <a href="https://www.linkedin.com/in/kristiyan-kirilov-797931302/">
+                <a href="https://www.linkedin.com/in/kristiyan-kirilov-797931302/" target="_blank">
                     <AiFillLinkedin />
                 </a>
             </div>
