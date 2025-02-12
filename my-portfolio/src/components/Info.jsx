@@ -1,6 +1,6 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import profilePhoto from "../../public/profile_photo.jpg"
+import profilePhoto from "../../public/profile_photo1.jpg"
 
 
 export default function Info() {
