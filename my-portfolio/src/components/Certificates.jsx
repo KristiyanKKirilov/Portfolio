@@ -121,13 +121,13 @@ export default function Certificates() {
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                 <div className="relative basis-1/10 flex-1 group">
                     <img
-                        className="rounded-lg object-cover w-full h-full transition-opacity duration-300 group-hover:opacity-0 z-10"
+                        className="rounded-lg object-cover w-full h-full transition-opacity duration-300 group-hover:opacity-0 z-10 pointer-events-none"
                         src={dsd}
                         alt="Front Image"
                     />
                     <img
-                        className="absolute top-0 left-0 rounded-lg object-cover w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-0"
-                        src={dsd2}
+                        className="absolute top-0 left-0 rounded-lg object-cover w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-0 pointer-events-none" 
+                        src={dsd2} 
                         alt="Hover Image"
                     />
                 </div>
