@@ -24,7 +24,7 @@ export default function App() {
                     <Route path="/projects" element={<Projects/>}/>
                     <Route path="/certificates" element={<Certificates/>}/>
                </Routes>
-               <Analytics/>
+               {/* <Analytics/> */}
             </section>
             </main>
         </div>
