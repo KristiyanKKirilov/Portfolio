@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Certificates from "./components/Certificates";
 import {Routes, Route} from 'react-router-dom';
 import "./styles.css";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
     const [darkMode, setDarkMode] = useState(true);
@@ -23,6 +24,7 @@ export default function App() {
                     <Route path="/projects" element={<Projects/>}/>
                     <Route path="/certificates" element={<Certificates/>}/>
                </Routes>
+               <Analytics/>
             </section>
             </main>
         </div>
